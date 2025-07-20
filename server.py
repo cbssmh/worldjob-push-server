@@ -5,8 +5,9 @@ import json
 app = Flask(__name__)
 
 # VAPID 키는 본인의 키로 교체하세요
-VAPID_PUBLIC_KEY = "YOUR_PUBLIC_VAPID_KEY"
-VAPID_PRIVATE_KEY = "YOUR_PRIVATE_VAPID_KEY"
+VAPID_PUBLIC_KEY = "BBtwzu4WBXYld2KzBC_GTkLgkKx-NmK4k7CHxI2OP53Yr9ZzKXBOLf7SLqE_ZAOH8Ur-TjGTUVL2A_9g_Jn1qYk"
+VAPID_PRIVATE_KEY = "9XP7kCqvuh9TIrOJnlzdsmAwPKo1XZSrZCHHxw9rL2I"
+
 VAPID_CLAIMS = {"sub": "mailto:your@email.com"}
 
 subscriptions = []
