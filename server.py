@@ -5,8 +5,10 @@ import json
 app = Flask(__name__)
 
 # VAPID 키는 본인의 키로 교체하세요
-VAPID_PUBLIC_KEY = "BBtwzu4WBXYld2KzBC_GTkLgkKx-NmK4k7CHxI2OP53Yr9ZzKXBOLf7SLqE_ZAOH8Ur-TjGTUVL2A_9g_Jn1qYk"
-VAPID_PRIVATE_KEY = "9XP7kCqvuh9TIrOJnlzdsmAwPKo1XZSrZCHHxw9rL2I"
+VAPID_PUBLIC_KEY = "BMK1KKzPuYH2DOWZzOiTxzrSTksoDwffyOLNBkJMEFLDx7L0LdY3Ktny7jY4xMUGU55mV95sA7O82hXerWBf0Ho"
+VAPID_PRIVATE_KEY = "KJw3k_Hz4Kxv_FX7ZfTzZTj8UQ5HRr1mFow1vBDwEos"
+VAPID_CLAIMS = {"sub": "mailto:cbssmh@email.com"}
+
 
 VAPID_CLAIMS = {"sub": "mailto:your@email.com"}
 
